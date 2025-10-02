@@ -1,8 +1,8 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Dennis Ruggio
+# DATE: 10/2/25
+# BRIEF DESCRIPTION: grade_converter.py lab
 
 
 
@@ -85,7 +85,28 @@ D
 1. What is something you would tell a future student to be careful about when
    doing this lab?
 
+This lab already had the code in place but it actually leads to my struggle before I opened this:
+I ended up making it way more complicated than it needed to be using elif to generate grade based on the user input number versus the grade ranges for the actual grade.
+My more complicated code for reference:
 
+#
+print('===== Grade Converter =====')
+grade = int(input('Enter a numerical grade (1-100): '))
+   
+   
+if grade < 65:
+   print('F')
+elif 65 <= grade < 70:
+   print('D')
+elif 70 <= grade < 80:
+   print('C')
+elif 80 <= grade < 90:
+   print('B')
+elif 90 <= grade < 100:
+   print('A')
+else:
+   print('A+')
+#
 
 
 
